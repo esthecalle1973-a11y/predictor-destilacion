@@ -29,7 +29,7 @@ model = load_model('model.joblib')
 
 # --- Barra Lateral para las Entradas del Usuario ---
 with st.sidebar:
-    st.header("⚙️ Parámetros de Entrada")
+    st.header("⚙️ Parámetros de Entrada o Input de data") 
     st.markdown("""
     Ajusta los deslizadores para que coincidan con los parámetros operativos de la columna de destilación.
     """)
